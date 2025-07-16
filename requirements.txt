@@ -1,0 +1,9 @@
+runpod
+opencv-python-headless
+numpy
+joblib
+Pillow
+mediapipe
+torch
+torchvision
+scikit-learn
