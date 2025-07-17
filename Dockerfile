@@ -1,8 +1,8 @@
 # Use an official, stable PyTorch base image
 FROM pytorch/pytorch:2.2.1-cuda11.8-cudnn8-runtime
 
-# Install pip, git, and the missing graphics library for OpenCV
-RUN apt-get update && apt-get install -y python3-pip git libgl1-mesa-glx
+# Install pip, git, and all the required system libraries for OpenCV
+RUN apt-get update && apt-get install -y python3-pip git libgl1-mesa-glx libglib2.0-0
 
 # Set the working directory inside the container
 WORKDIR /app
