@@ -13,7 +13,7 @@ import base64
 # === 1. Load ALL Models (This runs once when the worker starts) ===
 
 print("🚀 Worker starting, loading models...")
-
+a
 # --- MediaPipe & Scikit-learn models for 'predict' endpoint ---
 # You'd typically bundle these files with your worker or download them here
 MODEL_PATH_MEDIAPIPE = "model/mlp_mediapipe_stroke.pkl"
