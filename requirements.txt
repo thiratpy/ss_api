@@ -1,6 +1,6 @@
 runpod
 opencv-python-headless
-numpy
+numpy==1.26.4
 joblib
 Pillow
 mediapipe
